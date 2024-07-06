@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .material-button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            background-color: #2196F3;
+            cursor: pointer;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .material-button:hover {
+            background-color: #1976D2;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        const clearT = () => {
+            document.getElementById('mytext').value = ""
+        }
+        const pasteT = () => {
+            navigator.clipboard.readText()
+                .then(clipboardText => {
+                    document.getElementById('mytext').value = clipboardText
+                })
+                .catch(error => { })
+        }
+        const generate = () => {
+            let myTextData = document.getElementById('mytext').value
+            myTextData = "Solve the below MCQ and give correct answer (correct answer only answer from the below options and no explanation):\n\n" + myTextData
+            navigator.clipboard.writeText(myTextData)
+            document.getElementById('mytext').value = myTextData
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <textarea id="mytext" style="width:90vw;" placeholder="Question" rows="10"></textarea>
+        <button class="material-button" onclick="pasteT()">PASTE</button>
+        <button class="material-button" onclick="generate()">GENERATE</button>
+        <button class="material-button" onclick="clearT()">CLEAR</button>
+    </div>
+</body>
+
+</html>

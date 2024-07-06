@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .material-button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            background-color: #2196F3;
+            cursor: pointer;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .material-button:hover {
+            background-color: #1976D2;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        const clearQuestion = () => {
+            document.getElementById('mytextQuestion').value = ""
+        }
+        const clearPara = () => {
+            document.getElementById('mytextPara').value = ""
+        }
+        const pasteP = () => {
+            navigator.clipboard.readText()
+                .then(clipboardText => {
+                    document.getElementById('mytextPara').value = clipboardText
+                })
+                .catch(error => { })
+        }
+        const pasteQ = () => {
+            navigator.clipboard.readText()
+                .then(clipboardText => {
+                    document.getElementById('mytextQuestion').value = clipboardText
+                })
+                .catch(error => { })
+        }
+        const generate = () => {
+            let myTextPara = document.getElementById('mytextPara').value
+            let myTextQuestion = document.getElementById('mytextQuestion').value
+            let myTextData = "Read the below paragraph and give 2 correct answer of the question with given options:\n\n\n" + myTextPara
+            myTextData = myTextData + "\n\n\nQuestion (Give 2 correct answer of the below question from given options):\n\n" + myTextQuestion
+            navigator.clipboard.writeText(myTextData)
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <textarea id="mytextPara" style="width:90vw;" placeholder="Paragraph" rows="10"></textarea>
+        <textarea id="mytextQuestion" style="width:90vw;" placeholder="Question" rows="10"></textarea>
+        <table style="margin-left: 5vw;">
+            <tr>
+                <td><button class="material-button" onclick="pasteQ()">PASTE
+                        QUEST</button></td>
+                <td><button class="material-button" style="margin-left: 10px;" onclick="pasteP()">PASTE
+                        PARA</button></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 5px;"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="material-button" onclick="generate()">GENERATE</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 5px;"></td>
+            </tr>
+            <tr>
+                <td><button class="material-button" onclick="clearQuestion()">CLEAR QUEST</button></td>
+                <td><button class="material-button" style="margin-left: 10px;" onclick="clearPara()">CLEAR PARA</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
