@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Core Java",
+        "desc": "A fundamental programming language that builds strong object-oriented skills, essential for mastering advanced Java technologies like Java EE and Android development.",
+        "id": "corejava"
+    },
+    {
+        "name": "Kotlin",
+        "desc": "A modern, expressive programming language that simplifies Android development and enhances Java interoperability, paving the way for more efficient and safe coding practices.",
+        "id": "kotlin"
+    },
+    {
+        "name": "Android",
+        "desc": "Creating mobile applications for the Android platform, utilizing Java or Kotlin to build user-friendly and feature-rich experiences across diverse devices.",
+        "id": "android"
+    },
+    {
+        "name": "Python",
+        "desc": "A versatile language that simplifies web development and data analysis, paving the way for machine learning and AI.",
+        "id": "python"
+    },
+    {
+        "name": "SAP UI5",
+        "desc": "A user-friendly framework for building responsive web applications, essential for developing enterprise solutions and enhancing user experience in SAP environments.",
+        "id": "sapui5"
+    }
+]
