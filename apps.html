@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=0" />
+	<meta charset="utf-8" />
+	<meta name="description"
+		content="Explore Vaibhav Mojidra's passion, apps, education, work experiences, skills, and more on his official website. Discover code samples and achievements in tech." />
+	<meta name="copyright" content="Vaibhav Mojidra" />
+	<meta name="keywords"
+		content="vaibhav,mojidra,Vaibhav Mojidra,vaibhav mojidra,Vaibhav,mojidra,java,python,android java,android,react native,flutter,ios,swift,kotlin" />
+	<meta name="DC.title" content="Vaibhav Mojidra" />
+	<meta name="title" content="Vaibhav Mojidra" />
+	<meta name="robots" content="index,follow">
+	<meta name="author" content="Vaibhav Mojidra" />
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://vaibhavmojidra.github.io/site/">
+	<meta property="og:title" content="Vaibhav Mojidra">
+	<meta property="og:description"
+		content="Explore Vaibhav Mojidra's passion, apps, education, work experiences, skills, and more on his official website. Discover code samples and achievements in tech.">
+	<meta property="og:image" content="assets/img/websitepreview.png">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://vaibhavmojidra.github.io/site/">
+	<meta property="twitter:title" content="Vaibhav Mojidra">
+	<meta property="twitter:description"
+		content="Explore Vaibhav Mojidra's passion, apps, education, work experiences, skills, and more on his official website. Discover code samples and achievements in tech.">
+	<meta property="twitter:image" content="assets/img/websitepreview.png">
+	<meta name="google" content="notranslate">
+	<title>Vaibhav Mojidra</title>
+	<link rel="icon" href="assets/icons/tab.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+	<!-- My Css -->
+	<link rel="stylesheet" type="text/css" href="css/master.css" />
+	<link rel="stylesheet" type="text/css" href="css/apps.css" />
+
+	<!-- My Js-->
+	<script src="js/master.js"></script>
+	<script src="js/genericerror.js"></script>
+	<script src="js/noresultfound.js"></script>
+	<script src="js/apps.js"></script>
+
+</head>
+
+<body>
+
+	<div id="bottomsheet-container">
+		<div id="bottomsheet-dismiss" onclick="closeFilterBottomSheet()"></div>
+		<div id="bottomsheet-main-container">
+			<div class="bottomsheet-header-row">
+				<div class="close-bottomsheet-container">
+					<div class="close-bottomsheet" onclick="closeFilterBottomSheet()"></div>
+				</div>
+				<div class="bottomsheet-header">
+					<div class="bottomsheet-header-title">Apps Filter</div>
+					<div class="bottomsheet-header-reset" onclick="resetFilter()">Reset</div>
+				</div>
+				<div class="bottomsheet-divider"></div>
+			</div>
+
+			<div id="bottomsheet-filters-container">
+				<div class="bottomsheet-filter-section bottomsheet-app-type-filter-section">
+					<div class="filter-section-title">app type</div>
+					<div class="filter-list" id="app-type-list"></div>
+				</div>
+				<div class="bottomsheet-filter-section bottomsheet-technologies-filter-section">
+					<div class="filter-section-title">technology</div>
+					<div class="filter-list" id="technology-list"></div>
+				</div>
+			</div>
+
+			<div class="bottomsheet-apply-filter-container">
+				<div class="apply-filters" onclick="applyFilters()">Apply Filters</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="navbar-container" id="nav-bar-view">
+		<nav>
+			<div class="logo" id="header-title">Vaibhav Mojidra</div>
+			<input type="checkbox" id="burgerClick">
+			<div class="burger" onclick="onNavBarBurgerClick()" id="bugger-id">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul>
+				<li><a href="index.html" class="inactive">About Me</a></li>
+				<li><a href="educationandcertifications.html" class="inactive">Education & Certifications</a></li>
+				<li><a href="workexperience.html" class="inactive">Work Experience</a></li>
+				<li><a href="skills.html" class="inactive">Skills</a></li>
+				<li><a class="active">Apps</a></li>
+				<li><a href="githubrepositories.html" class="inactive">GitHub Repositories</a></li>
+				<li><a href="roadmaps.html" class="inactive">Roadmaps</a></li>
+				<li>
+					<div id="navbar-search-icon" class="navbar-icon" onclick="openUniversalSearch()"></div>
+				</li>
+				<li>
+					<div id="theme-icon" class="navbar-icon" onclick="changeTheme()"></div>
+				</li>
+				<li><a class="mobile-view-icon-to-text" onclick="openUniversalSearch()">Universal Search</a></li>
+				<li><a class="mobile-view-icon-to-text" id="mobile-view-theme-text" onclick="changeTheme()">Switch to
+						dark mode</a></li>
+			</ul>
+		</nav>
+		<div class="filter-container" id="filter-container-element">
+			<div class="search-bar">
+				<div class="search-icon-text-box"></div>
+				<input id="search-text-box" type="text" oninput="onSearchQueryChange()" placeholder="Search apps"
+					onkeydown="handleEnterEquivalent(event)" />
+				<div id="clear-icon-text-box" onclick="clearSearchQuery()"></div>
+			</div>
+			<div class="filter-button-container">
+				<div class="filter" onclick="openFilterBottomSheet()">
+					<div id="filter-icon"></div>
+					<div id="filter-text">Filter</div>
+				</div>
+			</div>
+		</div>
+		<div class="spacer" style="height: 8px;"></div>
+	</div>
+
+	<div class="main-content" id="main-view">
+
+	</div>
+
+	<div class="ring-container" onclick="openIA()">
+		<div class="instant-assist-wrapper instant-assist-animation1">
+			<div class="instant-assist instant-assist-animation2">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
