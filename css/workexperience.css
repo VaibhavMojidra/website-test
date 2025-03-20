@@ -1,0 +1,293 @@
+.section-container {
+    padding: 0px 16px;
+}
+
+.section-title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
+
+.company-about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-details {
+    padding: 0px 12px;
+    width: 100%;
+}
+
+.company-name {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.company-photos {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.company-experience {
+    margin-top: 4px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.company-location-and-type {
+    margin-top: 4px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--light-text-color);
+}
+
+.company-logo {
+    width: 54px;
+    height: 54px;
+    border-radius: 5px;
+}
+
+.company-img {
+    height: 60px;
+    width: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 2px 0px;
+}
+
+.company-logo-vl-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-vl-container {
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.company-vl {
+    width: 2px;
+    background-color: var(--light-text-color);
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.client-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.client-vl-container {
+    width: 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.client-vl-bullet-container {
+    width: 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.client-vl-bullet-vl {
+    height: 8px;
+    width: 2px;
+    background-color: var(--light-text-color)
+}
+
+.client-vl-bullet {
+    height: 10px;
+    width: 10px;
+    background-color: var(--light-text-color);
+    border-radius: 100px;
+    margin-top: 4px;
+}
+
+.client-vert-l-container {
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.client-vert-l {
+    width: 2px;
+    background-color: var(--light-text-color);
+    height: 100%;
+}
+
+.client-details {
+    padding: 0px 12px;
+    width: 100%;
+}
+
+.client-logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.client-name {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.client-work-role-duration-container {
+    padding-top: 4px;
+    padding-bottom: 15px;
+}
+
+.work-role {
+    margin-top: 2px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.client-duration {
+    margin-top: 2px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--light-text-color);
+}
+
+.client-logo-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.skeleton-section-title {
+    border-radius: 2px;
+    height: 28px;
+    width: 160px;
+    margin-bottom: 16px;
+}
+
+.skeleton-company-name {
+    border-radius: 2px;
+    height: 28px;
+    width: 100%;
+}
+
+.skeleton-company-experience {
+    border-radius: 2px;
+    margin-top: 4px;
+    height: 16px;
+    width: 100%;
+}
+
+.skeleton-company-location-and-type {
+    border-radius: 2px;
+    margin-top: 4px;
+    height: 16px;
+    width: 100%;
+}
+
+.skeleton-client-name {
+    height: 30px;
+    border-radius: 2px;
+}
+
+.skeleton-work-role {
+    margin-top: 2px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.skeleton-client-duration {
+    margin-top: 4px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.card-item {
+    background-color: var(--card-color);
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 12px;
+    flex-direction: column;
+}
+
+.award-logo-and-name-date-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.award-icon {
+    height: 52px;
+    width: 52px;
+    border-radius: 4px;
+}
+
+
+
+.award-name-date-container {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 56px);
+}
+
+.award-name {
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: var(--card-text-color);
+}
+
+.award-date {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 6px;
+    color: var(--card-text-color);
+}
+
+.award-note {
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--card-light-text-color);
+}
+
+.skeleton-award-name {
+    height: 30px;
+    border-radius: 2px;
+}
+
+.skeleton-award-date {
+    height: 18px;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+
+.skeleton-award-note {
+    height: 18px;
+    margin-top: 6px;
+    border-radius: 2px;
+}
