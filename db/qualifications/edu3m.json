@@ -1,0 +1,70 @@
+{
+    "title": "Bachelor of Science in Information Technology",
+    "subTitle": "Narsee Monjee College of Commerce and Economics with 8.33 CGPA, A Grade - Mumbai University",
+    "icon": "nm.jpeg",
+    "type": "m",
+    "nestedData": [
+        {
+            "title": "Semester 1",
+            "listData": [
+                "Imperative Programming - C",
+                "Digital Electronics",
+                "Operating Systems",
+                "Discrete Mathematics",
+                "Communication Skills"
+            ]
+        },
+        {
+            "title": "Semester 2",
+            "listData": [
+                "Object oriented Programming - C++",
+                "Microprocessor Architecture",
+                "Web Programming",
+                "Numerical and Statistical Methods",
+                "Green Computing"
+            ]
+        },
+        {
+            "title": "Semester 3",
+            "listData": [
+                "Python Programming",
+                "Data Structures",
+                "Computer Networks",
+                "Database Management Systems",
+                "Applied Mathematics"
+            ]
+        },
+        {
+            "title": "Semester 4",
+            "listData": [
+                "Core Java",
+                "Introduction to Embedded Systems",
+                "Computer Oriented Statistical Techniques",
+                "Software Engineering",
+                "Computer Graphics and Animation"
+            ]
+        },
+        {
+            "title": "Semester 5",
+            "listData": [
+                "Software Project Management",
+                "Internet of Things",
+                "Advanced Web Programming - ASP.NET",
+                "Artificial Intelligence",
+                "Enterprise Java - JSP,Hibernate..."
+            ]
+        },
+        {
+            "title": "Semester 6",
+            "listData": [
+                "Software Quality Assurance",
+                "Security in Computing",
+                "Business Intelligence ",
+                "Geographic Information Systems",
+                "IT Service Management",
+                "Android Using Java",
+                "Final Year Project (\u003Ca href='pages/apps/notify_me.html'\u003ECollege Management System\u003C/a\u003E in Apps)"
+            ]
+        }
+    ]
+}
