@@ -1,0 +1,448 @@
+{
+    "educations": [
+        {
+            "id": "edu4m",
+            "title": "Master of Business Administration in Artificial Intelligence & Machine Learning",
+            "subTitle": "Dr. D. Y. Patil University, Pune with 9.11 CGPA, A+ Grade",
+            "icon": "dypatil.jpeg",
+            "keywords": [
+                "masters",
+                "degree",
+                "masters degree",
+                "graduation",
+                "DY Patil",
+                "mba",
+                "mba in ai ml",
+                "artificial intelligence & machine learning",
+                "machine learning",
+                "artificial intelligence"
+            ]
+        },
+        {
+            "id": "edu3m",
+            "title": "Bachelor of Science in Information Technology",
+            "subTitle": "Narsee Monjee College of Commerce and Economics with 8.33 CGPA, A Grade - Mumbai University",
+            "icon": "nm.jpeg",
+            "keywords": [
+                "bscit",
+                "degree",
+                "bachelors degree",
+                "graduation",
+                "NM College",
+                "college",
+                "information technology"
+            ]
+        },
+        {
+            "id": "edu2",
+            "title": "Higher Secondary Certificate (HSC)",
+            "subTitle": "M. L. Dahanukar College of Commerce with 78.62%, A Grade - State Board",
+            "icon": "mldc.jpeg",
+            "keywords": [
+                "high school",
+                "higher education",
+                "hsc",
+                "MLDC",
+                "Dahanukar",
+                "junior college"
+            ]
+        },
+        {
+            "id": "edu1",
+            "title": "Secondary School Certificate (SSC)",
+            "subTitle": "Smt. H.M.Nanavati English High School with 80.00%, A Grade - State Board",
+            "icon": "hmn.jpeg",
+            "keywords": [
+                "school",
+                "schooling",
+                "ssc",
+                "HMN",
+                "H.M.N"
+            ]
+        }
+    ],
+    "professionalCertifications": [
+        {
+            "id": "pc2m",
+            "title": "Google IT Automation with Python",
+            "subTitle": "Google",
+            "icon": "google.jpeg",
+            "keywords": [
+                "python",
+                "git",
+                "cloud",
+                "automation"
+            ]
+        },
+        {
+            "id": "pc1m",
+            "title": "Google Project Management",
+            "subTitle": "Google",
+            "icon": "google.jpeg",
+            "keywords": [
+                "foundations",
+                "project",
+                "planning",
+                "execution",
+                "agile"
+            ]
+        }
+    ],
+    "instituteCertifications": [
+        {
+            "id": "inc2",
+            "title": "GNIIT in Cloud And Mobile Software Engineering",
+            "subTitle": "NIIT  with 9.0 CGPA, Excellent",
+            "icon": "niit.jpeg",
+            "keywords": [
+                "java",
+                "html",
+                "javascript",
+                "jquery",
+                "hibernate",
+                "spring",
+                "data structures",
+                "google cloud",
+                "android",
+                "database",
+                "fullstack"
+            ]
+        },
+        {
+            "id": "inc1",
+            "title": "Maharashtra State Certificate in Information Technology (MS-CIT)",
+            "subTitle": "Maharashtra State Board of Technical Education, Mumbai with 93%",
+            "icon": "mscit.jpeg",
+            "keywords": [
+                "excel",
+                "outlook",
+                "word",
+                "microsoft",
+                "powerpoint",
+                "windows"
+            ]
+        }
+    ],
+    "onlineCertifications": [
+        {
+            "id": "olc26",
+            "title": "Automating Real-World Tasks with Python",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "API",
+                "Data Serialization",
+                "GET",
+                "POST"
+            ]
+        },
+        {
+            "id": "olc25",
+            "title": "Configuration Management and the Cloud",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Updating Deployments",
+                " Load Balancing",
+                "Debugging",
+                "Configuration Management"
+            ]
+        },
+        {
+            "id": "olc24",
+            "title": "Troubleshooting and Debugging Techniques",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Debugging",
+                "Troubleshooting",
+                "Network Saturation",
+                "Configuration Management"
+            ]
+        },
+        {
+            "id": "olc23",
+            "title": "Introduction to Git and GitHub",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Version Control",
+                "Git",
+                "Pull Requests",
+                "Code Reviews"
+            ]
+        },
+        {
+            "id": "olc22",
+            "title": "Using Python to Interact with the Operating System",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Python",
+                "Operating System"
+            ]
+        },
+        {
+            "id": "olc21",
+            "title": "Crash Course on Python",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Python",
+                "Crash Course",
+                "Loops",
+                "Basics of Python"
+            ]
+        },
+        {
+            "id": "olc20",
+            "title": "Applying Project Management in the Real World",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Stakeholder",
+                "Project Management",
+                "Quality Management"
+            ]
+        },
+        {
+            "id": "olc19",
+            "title": "Agile Project Management",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Agile",
+                "Project Management",
+                "Scrum",
+                "Product Backlog"
+            ]
+        },
+        {
+            "id": "olc18",
+            "title": "Project Execution: Running the Project",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "Project execution",
+                "Project Charters",
+                "risk management",
+                "retrospectives"
+            ]
+        },
+        {
+            "id": "olc17",
+            "title": "Project Planning: Putting It All Together",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "estimation",
+                "time",
+                "project budgets",
+                "planning",
+                "Documenting"
+            ]
+        },
+        {
+            "id": "olc16",
+            "title": "Project Initiation: Starting a Successful Project",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "SMART goals",
+                "Project Charters"
+            ]
+        },
+        {
+            "id": "olc15",
+            "title": "Foundations of Project Management",
+            "subTitle": "Coursera",
+            "icon": "coursera.jpeg",
+            "keywords": [
+                "What is project management",
+                "Project Management",
+                "project manager",
+                "Utilizing tools"
+            ]
+        },
+        {
+            "id": "olc14",
+            "title": "Advanced Android App Development",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "Live Data",
+                " View Model",
+                "Data Binding",
+                "MVVM",
+                "Dagger2",
+                "Work Manager",
+                "Navigation Architecture Components",
+                "Room",
+                "Retrofit",
+                "Hilt",
+                "Jetpack Compose"
+            ]
+        },
+        {
+            "id": "olc13",
+            "title": "The Complete React Native + Hooks Course",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "FlatList",
+                "Navigating with React Navigation",
+                "State Management",
+                "Layouts And StyleSheet",
+                "React Native"
+            ]
+        },
+        {
+            "id": "olc12",
+            "title": "JavaScript Basics for Beginners",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "Variables",
+                "JavaScript Basics",
+                "Functions",
+                "Array Functions",
+                "Javascript es6",
+                "ECMAScript 6"
+            ]
+        },
+        {
+            "id": "olc11",
+            "title": "Agile Project Management Certification Prep+Agile Scrum+Jira",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "Agile Manifesto",
+                "Scrum",
+                "Dynamic Systems Development Method(DSDM)"
+            ]
+        },
+        {
+            "id": "olc10",
+            "title": "Java Persistence: Hibernate and JPA Fundamentals",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "Hibernate",
+                "SQL Joins",
+                "Lazy Fetching"
+            ]
+        },
+        {
+            "id": "olc9",
+            "title": "Artificial Intelligence I: Meta-Heuristics and Games in Java",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "Graph Algorithms",
+                "Artificial Intelligence",
+                "Data Structures"
+            ]
+        },
+        {
+            "id": "olc8",
+            "title": "GitHub Ultimate: Master Git and GitHub - Beginner to Expert",
+            "subTitle": "Udemy",
+            "icon": "udemy.jpeg",
+            "keywords": [
+                "Github",
+                "Pull",
+                "Fetch",
+                "Commit"
+            ]
+        },
+        {
+            "id": "olc7",
+            "title": "Excel 2019 Essential Training",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "Excel",
+                "Sum",
+                "Entry"
+            ]
+        },
+        {
+            "id": "olc6",
+            "title": "Executive Presence on Video Conference Calls",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "Expectations and preparation",
+                "Wardrobe choices",
+                "Perfecting eye contact"
+            ]
+        },
+        {
+            "id": "olc5",
+            "title": "Learning Outlook 2019",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "mail",
+                "attachments",
+                "contact group"
+            ]
+        },
+        {
+            "id": "olc4",
+            "title": "Outlook Quick Tips",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "contact in seconds",
+                "Conversation Cleanup"
+            ]
+        },
+        {
+            "id": "olc3",
+            "title": "Outlook: Tips and Tricks",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "multiple windows",
+                "Delete old messages"
+            ]
+        },
+        {
+            "id": "olc2",
+            "title": "PowerPoint Essential Training (Office 365/Microsoft 365)",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "powerful presentation",
+                "professional layouts",
+                "readers communicate",
+                "slide layout"
+            ]
+        },
+        {
+            "id": "olc1",
+            "title": "Tips for Writing Business Emails",
+            "subTitle": "LinkedIn Learning",
+            "icon": "linkedin.jpeg",
+            "keywords": [
+                "BCC in email",
+                "Email",
+                "Reader-friendly"
+            ]
+        }
+    ],
+    "otherCertifications": [
+        {
+            "id": "otrc1",
+            "title": "Machine Learning Beginner & Intermediate",
+            "subTitle": "Google Crowdsource",
+            "icon": "googlecrowdsource.jpeg",
+            "keywords": [
+                " Machine Learning",
+                "Algorithms",
+                "Panda Library"
+            ]
+        }
+    ]
+}

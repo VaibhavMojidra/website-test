@@ -1,0 +1,50 @@
+{
+    "name": "Core Java",
+    "desc": "A fundamental programming language that builds strong object-oriented skills, essential for mastering advanced Java technologies like Java EE and Android development.",
+    "note": "Although Google has declared Kotlin as the first choice for Android, I (Vaibhav Mojidra) believe that understanding Android in Java is essential before transitioning to Kotlin. Java covers several foundational topics that are assumed to be known when coding in Kotlin. Therefore, I have included Java basics in the Android roadmap.",
+    "roadmap": [
+        {
+            "topic": "Hello World",
+            "links": [
+                {
+                    "displayText": "Java Demo",
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                },
+                {
+                    "displayText": "Kotlin Demo",
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                },
+                {
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                }
+            ]
+        },
+        {
+            "topic": "Hello World 2",
+            "links": [
+                {
+                    "displayText": "Java Demo",
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                },
+                {
+                    "displayText": "Kotlin Demo",
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                },
+                {
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                }
+            ]
+        },
+        {
+            "topic": "Hello World 3",
+            "links": [
+                {
+                    "link": "https://vaibhavmojidra.github.io/website-test/"
+                }
+            ]
+        },
+        {
+            "topic": "Hello World 4"
+        }
+    ]
+}
