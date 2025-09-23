@@ -1,0 +1,53 @@
+{
+    "title": "Master of Business Administration in Artificial Intelligence & Machine Learning",
+    "subTitle": "Dr. D. Y. Patil University, Pune with 9.11 CGPA, A+ Grade",
+    "icon": "dypatil.jpeg",
+    "type": "m",
+    "nestedData": [
+        {
+            "title": "Semester 1",
+            "listData": [
+                "Principles & Practices Of Management",
+                "Organizational Behaviour",
+                "Management Accounting",
+                "Managerial Economics",
+                "Business Communication",
+                "Research Methodology",
+                "Environmental Awareness and Disaster Management"
+            ]
+        },
+        {
+            "title": "Semester 2",
+            "listData": [
+                "Human Resource Management",
+                "Marketing Management",
+                "Financial Management",
+                "Operations Management",
+                "Management Information System",
+                "Strategic Management and Business Policy",
+                "Entrepreneurship Development"
+            ]
+        },
+        {
+            "title": "Semester 3",
+            "listData": [
+                "Basics of Artificial Intelligence & Machine Learning",
+                "Machine Learning",
+                "Performing Analytics with Python",
+                "Statistics & Quantitative Techniques",
+                "Business Intelligence",
+                "R-Programming for Data Analysis and Visualization",
+                "Digital Marketing"
+            ]
+        },
+        {
+            "title": "Semester 4",
+            "listData": [
+                "Application of AI in Business",
+                "Introduction to Deep Learning",
+                "Business Ethics & Corporate Governance",
+                "Final Year Software Project along with Report"
+            ]
+        }
+    ]
+}

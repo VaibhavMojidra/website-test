@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta charset="utf-8" />
+	<style>
+		p {
+			color: red;
+			text-align: center;
+		}
+	</style>
+	<script>
+		const onLoaded = () => {
+			if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.getElementById('bdy').style.backgroundColor = '#222222'
+				document.getElementById('bdy').style.color = '#ECEFF1'
+			} else {
+				document.getElementById('bdy').style.backgroundColor = '#ECEFF1'
+				document.getElementById('bdy').style.color = '#222222'
+			}
+			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+				const newColorScheme = event.matches ? "dark" : "light"
+				if (newColorScheme == "dark") {
+					document.getElementById('bdy').style.backgroundColor = '#222222'
+					document.getElementById('bdy').style.color = '#ECEFF1'
+				} else {
+					document.getElementById('bdy').style.backgroundColor = '#ECEFF1'
+					document.getElementById('bdy').style.color = '#222222'
+				}
+			});
+		}
+	</script>
+</head>
+
+<body style="background-color: #ECEFF1;" id="bdy" onload="onLoaded()">
+	<table>
+		<tr style="height: 100vh;width: 100vw;">
+			<td style="text-align: center;width: 100vw;">
+				<h1>No testing going on...</h1>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+    "title": "Higher Secondary Certificate (HSC)",
+    "subTitle": "M. L. Dahanukar College of Commerce with 78.62%, A Grade - State Board",
+    "icon": "mldc.jpeg",
+    "type": "s",
+    "listData": [
+        "English",
+        "French",
+        "Mathematics and Statistics",
+        "Economics",
+        "Book-keeping and Accountancy",
+        "Organization of Commerce and Management",
+        "Health and Physical Education"
+    ]
+}

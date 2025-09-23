@@ -1,0 +1,69 @@
+{
+    "workExperiences": [
+        {
+            "name": "Deloitte USI (US-India Offices)",
+            "logo": "deloitte_logo.jpeg",
+            "joiningDate": "1/18/2021",
+            "exitDate": "Present",
+            "time": "Full-time",
+            "type": "On-site",
+            "location": "Mumbai, Maharashtra, India",
+            "images": [
+                "deloitte1.jpg",
+                "deloitte2.jpg",
+                "deloitte3.jpg"
+            ],
+            "compressImages": [
+                "cdeloitte1.jpg",
+                "cdeloitte2.jpg",
+                "cdeloitte3.jpg"
+            ],
+            "projects": [
+                {
+                    "logo": "aarp.jpg",
+                    "name": "AARP",
+                    "role": "Android Developer",
+                    "onBoardDate": "1/2/2024",
+                    "releaseDate": "Present"
+                },
+                {
+                    "logo": "google.jpeg",
+                    "name": "Google",
+                    "role": "SAP UI5 Developer",
+                    "onBoardDate": "3/30/2021",
+                    "releaseDate": "12/31/2023"
+                }
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "name": "Spot Award",
+            "icon": "deloitte_logo.jpeg",
+            "award": "spt2.jpg",
+            "issuedDate": "07/09/2024",
+            "note": "Received from Deloitte USI while working for AARP"
+        },
+        {
+            "name": "Applause Award",
+            "icon": "deloitte_logo.jpeg",
+            "award": "apl2.jpg",
+            "issuedDate": "04/07/2023",
+            "note": "Received from Deloitte USI while working for Google"
+        },
+        {
+            "name": "Applause Award",
+            "icon": "deloitte_logo.jpeg",
+            "award": "apl1.jpg",
+            "issuedDate": "07/26/2022",
+            "note": "Received from Deloitte USI while working for Google"
+        },
+        {
+            "name": "Spot Award",
+            "icon": "deloitte_logo.jpeg",
+            "award": "spt1.jpg",
+            "issuedDate": "01/30/2022",
+            "note": "Received from Deloitte USI while working for Google"
+        }
+    ]
+}

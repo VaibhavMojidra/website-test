@@ -1,0 +1,218 @@
+[
+    {
+        "id": "counttlineocode",
+        "name": "Count The Lines Of Code",
+        "media": "count_the_lines_of_code.gif",
+        "url": "https://github.com/VaibhavMojidra/Count-The-Lines-Of-Code-Desktop-App-Using-Electron-JS",
+        "type": "Mini App",
+        "buttonText": "GitHub Repository",
+        "tech": "Electron JS"
+    },
+    {
+        "id": "aptitudetestapp",
+        "name": "Aptitude Test with Answers",
+        "media": "aptitude_test.gif",
+        "url": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.aptitudetestapp",
+        "type": "Live App",
+        "buttonText": "Install App",
+        "tech": "React Native"
+    },
+    {
+        "id": "pmats",
+        "name": "PMATS",
+        "media": "pmats.gif",
+        "url": "https://github.com/VaibhavMojidra/Popular-Movies-Artists-TV-Shows-Using-Clean-Architecture",
+        "type": "Mini App",
+        "buttonText": "GitHub Repository",
+        "tech": "Android Kotlin"
+    },
+    {
+        "id": "dailynews",
+        "name": "Daily News",
+        "media": "daily_news.gif",
+        "url": "https://github.com/VaibhavMojidra/Daily-News-App-Using-React-Native",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "React Native"
+    },
+    {
+        "id": "trackerapp",
+        "name": "Tracker App",
+        "media": "tracker_app.gif",
+        "url": "https://github.com/VaibhavMojidra/Tracker-App-Using-React-Native-And-MongoDB",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "React Native"
+    },
+    {
+        "id": "studentprofile",
+        "name": "Student Profile",
+        "media": "studentprofile.gif",
+        "url": "https://github.com/VaibhavMojidra/Student-Profile-Module-Using-React-Native",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "React Native"
+    },
+    {
+        "id": "blogapp",
+        "name": "Blog App",
+        "media": "blog.gif",
+        "url": "https://github.com/VaibhavMojidra/Blog-App-Using-React-Native",
+        "type": "Mini App",
+        "buttonText": "GitHub Repository",
+        "tech": "React Native"
+    },
+    {
+        "id": "businesssearch",
+        "name": "Business Search",
+        "media": "business_search.gif",
+        "url": "https://github.com/VaibhavMojidra/Business-Search-App-Using-React-Native-And-Yelp-API",
+        "type": "Mini App",
+        "buttonText": "GitHub Repository",
+        "tech": "React Native"
+    },
+    {
+        "id": "hiddenlauncher",
+        "name": "Hidden Launcher",
+        "media": "hidden_launcher.gif",
+        "url": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.hiddenlauncher",
+        "type": "Live App",
+        "buttonText": "Install App",
+        "tech": "Android Java"
+    },
+    {
+        "id": "notemaker",
+        "name": "Note Maker",
+        "media": "note_maker.gif",
+        "url": "https://github.com/VaibhavMojidra/Note-Maker-Web-App-Using-Bootstrap-4-Hibernate-JSP-Servlet",
+        "type": "Mini App",
+        "buttonText": "GitHub Repository",
+        "tech": "Java Web"
+    },
+    {
+        "id": "doctorsappointment",
+        "name": "Doctor's Appointment",
+        "media": "doctors_app.gif",
+        "url": "https://github.com/VaibhavMojidra/Doctor-s-Appointment-Application-Using-Firebase",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Android Java"
+    },
+    {
+        "id": "programmingebooks",
+        "name": "Programming eBooks",
+        "media": "programming_ebook.gif",
+        "url": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.programmingebooks",
+        "type": "Live App",
+        "buttonText": "Install App",
+        "tech": "Android Kotlin"
+    },
+    {
+        "id": "shootingbirds",
+        "name": "Shooting Birds",
+        "media": "shooting_birds.gif",
+        "url": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.shootingbirds",
+        "type": "Live App",
+        "buttonText": "Install App",
+        "tech": "Android Java"
+    },
+    {
+        "id": "programmingmcqapp",
+        "name": "Programming MCQ App",
+        "media": "programming_mcq.gif",
+        "url": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.programmingmcqapp",
+        "type": "Live App",
+        "buttonText": "Install App",
+        "tech": "Android Kotlin"
+    },
+    {
+        "id": "collagemanagementsystem",
+        "name": "College Management System",
+        "media": "notify_me.gif",
+        "url": "pages/preview/notify_me_doc.html",
+        "type": "Demo App",
+        "buttonText": "Preview Link",
+        "tech": "Android Java"
+    },
+    {
+        "id": "wheresthefood",
+        "name": "Where's the food",
+        "media": "wheres_the_food.gif",
+        "url": "https://github.com/VaibhavMojidra/Wheres-the-food-Using-Android-Java",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Android Java"
+    },
+    {
+        "id": "quickchat",
+        "name": "Quick Chat",
+        "media": "quick_chat.gif",
+        "url": "https://github.com/VaibhavMojidra/Android-Based-Chat-Application-Using-Java-And-Firebase",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Android Java"
+    },
+    {
+        "id": "databasequeryexecutor",
+        "name": "Database Query Executor",
+        "media": "data_query_executor.gif",
+        "url": "https://github.com/VaibhavMojidra/MS-SQL-Database-Query-Executer-Using-Java",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Java Desktop"
+    },
+    {
+        "id": "javamcqwebapp",
+        "name": "Java MCQ Web App",
+        "media": "java_mcq.gif",
+        "url": "https://github.com/VaibhavMojidra/Java-MCQ-Web-Application",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Java Web"
+    },
+    {
+        "id": "capp",
+        "name": "CAPP",
+        "media": "capp.gif",
+        "url": "https://play.google.com/store/apps/details?id=com.cordova.vaibhavcapp",
+        "type": "Live App",
+        "buttonText": "Install App",
+        "tech": "Apache Cordova"
+    },
+    {
+        "id": "passwordbasedcircuitbreaker",
+        "name": "Password Based Circuit Breaker",
+        "media": "password_based_circuit_breaker.gif",
+        "url": "https://github.com/VaibhavMojidra/Password-Based-Circuit-Breaker-Using-Arduino-UNO",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Embedded System"
+    },
+    {
+        "id": "vmos",
+        "name": "VMOS",
+        "media": "vmos.gif",
+        "url": "https://github.com/VaibhavMojidra/Virtual-Machine-Operating-System-VMOS-Using-Java",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Java Desktop"
+    },
+    {
+        "id": "atm",
+        "name": "ATM",
+        "media": "atm.gif",
+        "url": "https://github.com/VaibhavMojidra/ATM-Desktop-Application-Using-JAVA",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Java Desktop"
+    },
+    {
+        "id": "cappcomputer",
+        "name": "CAPP Computer Version",
+        "media": "capp_com.gif",
+        "url": "https://github.com/VaibhavMojidra/CAPP-Computer-Version",
+        "type": "Demo App",
+        "buttonText": "GitHub Repository",
+        "tech": "Java Desktop"
+    }
+]

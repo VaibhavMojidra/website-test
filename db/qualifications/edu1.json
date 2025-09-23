@@ -1,0 +1,20 @@
+{
+    "title": "Secondary School Certificate (SSC)",
+    "subTitle": "Smt. H.M.Nanavati English High School with 80.00%, A Grade - State Board",
+    "icon": "hmn.jpeg",
+    "type": "s",
+    "listData": [
+        "English",
+        "Hindi",
+        "Marathi",
+        "French",
+        "Mathematics Paper-I Alegbra",
+        "Mathematics Paper-II Geometry",
+        "Science and Technology",
+        "History",
+        "Political science",
+        "Information Communication Technology (ICT)",
+        "Geography",
+        "Economics"
+    ]
+}
